@@ -1,0 +1,39 @@
+---
+// Component Imports
+import "@shoelace-style/shoelace/dist/themes/light.css";
+// import '@shoelace-style/shoelace/dist/shoelace.js';
+import Button from "../components/Button.astro";
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Astro + TailwindCSS + Web Component</title>
+    <script>
+      import "@shoelace-style/shoelace/dist/components/button/button.js";
+      import "@shoelace-style/shoelace/dist/components/icon/icon.js";
+      import "@shoelace-style/shoelace/dist/components/input/input.js";
+      import "@shoelace-style/shoelace/dist/components/rating/rating.js";
+      import { setBasePath } from "@shoelace-style/shoelace/dist/utilities/base-path.js";
+
+      setBasePath("./shoelace");
+    </script>
+  </head><body>
+    <div class="grid place-items-center h-screen content-center">
+      <Button>Tailwind/Shoelace Button in Astro!</Button>
+      <a href="/markdown-page" class="p-4 underline"
+        >Markdown is also supported...</a
+      >
+      <sl-button variant="primary" pill onclick="alert('shoelace');">
+        <sl-icon slot="prefix" name="gear"></sl-icon>
+        Shoelace Settings
+      </sl-button>
+      <sl-input placeholder="Enter your name"></sl-input>
+    </div>
+  </body>
+</html>
