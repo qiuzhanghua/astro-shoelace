@@ -3,7 +3,7 @@
 ```sh
 pnpm create astro@latest --template with-tailwindcss
 pnpm add -D vite-plugin-static-copy
-onom add @shoelace-style/shoelace
+pnpm add @shoelace-style/shoelace
 ```
 
 ```sh
