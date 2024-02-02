@@ -10,19 +10,19 @@ dependencies:
     version: 0.4.1(prettier-plugin-astro@0.13.0)(prettier@3.2.4)(typescript@5.3.3)
   '@astrojs/mdx':
     specifier: ^2.1.1
-    version: 2.1.1(astro@4.2.8)
+    version: 2.1.1(astro@4.3.1)
   '@astrojs/tailwind':
     specifier: ^5.1.0
-    version: 5.1.0(astro@4.2.8)(tailwindcss@3.4.1)
+    version: 5.1.0(astro@4.3.1)(tailwindcss@3.4.1)
   '@shoelace-style/shoelace':
     specifier: ^2.13.1
-    version: 2.13.1(@types/react@18.2.48)
+    version: 2.13.1(@types/react@18.2.51)
   '@types/canvas-confetti':
     specifier: ^1.6.4
     version: 1.6.4
   astro:
-    specifier: ^4.2.8
-    version: 4.2.8(typescript@5.3.3)
+    specifier: ^4.3.1
+    version: 4.3.1(typescript@5.3.3)
   autoprefixer:
     specifier: ^10.4.17
     version: 10.4.17(postcss@8.4.33)
@@ -150,7 +150,7 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx@2.1.1(astro@4.2.8):
+  /@astrojs/mdx@2.1.1(astro@4.3.1):
     resolution: {integrity: sha512-AgGFdE7HOGmoFooGvMSatkA9FiSKwyVW7ImHot/bXJ6uAbFfu6iG2ht18Cf1pT22Hda/6iSCGWusFvBv0/EnKQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -159,7 +159,7 @@ packages:
       '@astrojs/markdown-remark': 4.2.1
       '@mdx-js/mdx': 3.0.0
       acorn: 8.11.3
-      astro: 4.2.8(typescript@5.3.3)
+      astro: 4.3.1(typescript@5.3.3)
       es-module-lexer: 1.4.1
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -183,13 +183,13 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/tailwind@5.1.0(astro@4.2.8)(tailwindcss@3.4.1):
+  /@astrojs/tailwind@5.1.0(astro@4.3.1)(tailwindcss@3.4.1):
     resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.2.8(typescript@5.3.3)
+      astro: 4.3.1(typescript@5.3.3)
       autoprefixer: 10.4.17(postcss@8.4.33)
       postcss: 8.4.33
       postcss-load-config: 4.0.2(postcss@8.4.33)
@@ -708,12 +708,12 @@ packages:
     resolution: {integrity: sha512-yWJKmpGE6lUURKAaIltoPIE/wrbY3TEkqQt+X0m+7fQNnAv0keydnYvbiJFP1PnMhizmIWRWOG5KLhYyc/xl+g==}
     dev: false
 
-  /@lit/react@1.0.3(@types/react@18.2.48):
+  /@lit/react@1.0.3(@types/react@18.2.51):
     resolution: {integrity: sha512-RGoPMrAPbFjQFXFbfmYdotw000DyChehTim+d562HRXvFGw//KxouI8jNOcc3Kw/1uqUA1SJqXFtKKxK0NUrww==}
     peerDependencies:
       '@types/react': 17 || 18
     dependencies:
-      '@types/react': 18.2.48
+      '@types/react': 18.2.51
     dev: false
 
   /@lit/reactive-element@2.0.4:
@@ -881,14 +881,14 @@ packages:
     resolution: {integrity: sha512-Hf45HeO+vdQblabpyZOTxJ4ZeZsmIUYXXPmoYrrR4OJ5OKxL+bhMz5mK8JXgl7HsoEowfz7+e248UGi861de9Q==}
     dev: false
 
-  /@shoelace-style/shoelace@2.13.1(@types/react@18.2.48):
+  /@shoelace-style/shoelace@2.13.1(@types/react@18.2.51):
     resolution: {integrity: sha512-QMMvq7xgKzZR5+HEgZvv82V1yDKxucsW3XTbF+Tl5ckkzyXlKtKdY1k0eK9EnWPK482JXjoKeeiBJnrx+h6i4Q==}
     engines: {node: '>=14.17.0'}
     requiresBuild: true
     dependencies:
       '@ctrl/tinycolor': 4.0.3
       '@floating-ui/dom': 1.6.1
-      '@lit/react': 1.0.3(@types/react@18.2.48)
+      '@lit/react': 1.0.3(@types/react@18.2.51)
       '@shoelace-style/animations': 1.1.0
       '@shoelace-style/localize': 3.1.2
       composed-offset-position: 0.0.4
@@ -982,8 +982,8 @@ packages:
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
     dev: false
 
-  /@types/react@18.2.48:
-    resolution: {integrity: sha512-qboRCl6Ie70DQQG9hhNREz81jqC1cs9EVNcjQ1AU+jH6NFfSAhVVbrrY/+nSF+Bsk4AOwm9Qa61InvMCyV+H3w==}
+  /@types/react@18.2.51:
+    resolution: {integrity: sha512-XeoMaU4CzyjdRr3c4IQQtiH7Rpo18V07rYZUucEZQwOUEtGgTXv7e6igQiQ+xnV6MbMe1qjEmKdgMNnfppnXfg==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -1173,8 +1173,8 @@ packages:
     hasBin: true
     dev: false
 
-  /astro@4.2.8(typescript@5.3.3):
-    resolution: {integrity: sha512-h78IAdSEPMo1bvR40HECQYpnMPfDnk9WxRNJ1+Hw5szk4k5IMUw3nG153nErJABRnaxb6WLv7dtS4tukzJz0mw==}
+  /astro@4.3.1(typescript@5.3.3):
+    resolution: {integrity: sha512-LAY2zQHOuOXEhpguyw5X0AIz6Xq+TAkBNEqrgIxwj72R87mmRQqQWmjChMPPkK95nFHkYR/71M2BrKunpbsfyw==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
