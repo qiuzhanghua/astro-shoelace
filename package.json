@@ -16,7 +16,7 @@
     "@astrojs/tailwind": "^5.1.0",
     "@shoelace-style/shoelace": "^2.14.0",
     "@types/canvas-confetti": "^1.6.4",
-    "astro": "^4.4.1",
+    "astro": "^4.4.3",
     "autoprefixer": "^10.4.17",
     "canvas-confetti": "^1.9.2",
     "postcss": "^8.4.35",
